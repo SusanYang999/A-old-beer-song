@@ -1,0 +1,14 @@
+var bottleNumber=99;
+function beer(){
+        while(bottleNumber > 1){
+        console.log("There are only" + bottleNumber +" bottles of beer on the wall.");
+        bottleNumber--;
+        }
+        while(bottleNumber >= 0 && bottleNumber<=1){
+        console.log("There are only" + bottleNumber +" bottle of beer on the wall.");
+        bottleNumber--;
+        }
+}
+
+
+beer();
